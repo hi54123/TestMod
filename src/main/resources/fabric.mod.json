@@ -18,6 +18,9 @@
     "main": [
       "hi54123.testmod.TestMod"
     ],
+    "client": [
+      "hi54123.testmod.TestModClient"
+    ],
     "fabric-datagen": [
       "hi54123.testmod.TestModDataGenerator"
     ]
