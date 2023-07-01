@@ -5,14 +5,13 @@
   "name": "TestMod",
   "description": "This is test mod by a beginner!",
   "authors": [
-    "Me!"
+    "hi54123"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/hi54123/testmod"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/testmod/icon.png",
+  "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [
