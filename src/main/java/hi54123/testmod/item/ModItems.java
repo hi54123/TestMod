@@ -7,7 +7,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModItem {
+public class ModItems {
 	public static final Item MODITEM1 = rigisterItem("moditem1",
 			new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 	
@@ -16,6 +16,6 @@ public class ModItem {
 	}
 	
 	public static void registerModItems() {
-		TestMod.LOGGER.debug("Registring mod items");
+		TestMod.LOGGER.debug("Registring mod items for " + TestMod.MOD_ID);
 	}
 }
