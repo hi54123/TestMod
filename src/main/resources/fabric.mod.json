@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "hi54123.testmod.ExampleMod"
+      "hi54123.testmod.TestMod"
     ],
     "fabric-datagen": [
-      "hi54123.testmod.ExampleModDataGenerator"
+      "hi54123.testmod.TestModDataGenerator"
     ]
   },
   "mixins": [
