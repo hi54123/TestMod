@@ -9,9 +9,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItem {
 	public static final Item MODITEM1 = rigisterItem("moditem1",
-			new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
+			new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 	
 	private static Item rigisterItem(String name, Item item) {
 		return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
+	}
+	
+	public static void registerModItems() {
+		TestMod.LOGGER.debug("Registring mod items");
 	}
 }
