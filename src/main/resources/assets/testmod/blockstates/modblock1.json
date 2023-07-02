@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "testmod:models/modblock1"
+      "model": "testmod:block/modblock1"
     }
   }
 }
