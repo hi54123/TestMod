@@ -1,5 +1,6 @@
 {
   "item.testmod.moditem1": "Item 1",
   "item.testmod.moditem2": "Item 2",
-  "itemGroup.testmod.moditem": "Testmod Tab"
+  "itemGroup.testmod.moditems": "Testmod Tab",
+  "block.testmod.modblock1": "Block 1"
 }
