@@ -1,6 +1,8 @@
 {
   "item.testmod.moditem1": "Item 1",
   "item.testmod.moditem2": "Item 2",
+  "item.testmod.shit": "Shit",
   "itemGroup.testmod.moditems": "Testmod Tab",
-  "block.testmod.modblock1": "Block 1"
+  "block.testmod.modblock1": "Block 1",
+  "block.testmod.modblock2": "Block 2"
 }

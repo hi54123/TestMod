@@ -11,6 +11,8 @@ public class ModItems {
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
 	public static final Item MODITEM2 = rigisterItem("moditem2",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
+	public static final Item SHIT = rigisterItem("shit",
+			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM).food(ModFoodComponents.SHIT)));
 	
 	private static Item rigisterItem(String name, Item item) {
 		return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
