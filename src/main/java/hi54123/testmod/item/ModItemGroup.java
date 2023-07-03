@@ -10,4 +10,8 @@ public class ModItemGroup {
 	public static final ItemGroup MODITEM = FabricItemGroupBuilder.build(
 			new Identifier(TestMod.MOD_ID, "moditems"),
 			() -> new ItemStack(ModItems.MODITEM1));
+	
+	public static void registerItemGroup() {
+		TestMod.LOGGER.debug("Registering mod item group for " + TestMod.MOD_ID);
+	}
 }
