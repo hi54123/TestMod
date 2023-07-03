@@ -13,6 +13,8 @@ public class ModItems {
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
 	public static final Item SHIT = rigisterItem("shit",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM).food(ModFoodComponents.SHIT)));
+	public static final Item YESHOUXIANBEI = rigisterItem("yeshouxianbei",
+			new YeShouXianBei(new Item.Settings().group(ModItemGroup.MODITEM).maxCount(1)));
 	
 	private static Item rigisterItem(String name, Item item) {
 		return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
