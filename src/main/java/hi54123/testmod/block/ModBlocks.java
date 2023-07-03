@@ -15,7 +15,9 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 	
 	public static final Block MODBLOCK1 = registerBlock("modblock1",
-			new Block(FabricBlockSettings.of(Material.STONE).strength(0.8f).requiresTool()), ModItemGroup.MODITEM);
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.MODITEM);
+	public static final Block MODBLOCK2 = registerBlock("modblock2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.MODITEM);
 	
 	private static Block registerBlock(String name, Block block, ItemGroup tab) {
 		registerBlockItem(name, block, tab);

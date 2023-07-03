@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "testmod:modblock1"
+    "testmod:modblock1",
+    "testmod:modblock2"
   ]
 }
