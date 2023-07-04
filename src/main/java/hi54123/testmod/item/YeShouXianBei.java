@@ -8,6 +8,9 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
+/**
+ * Build a prop called YeShouXianBei
+ */
 public class YeShouXianBei extends Item {
 	public YeShouXianBei(Settings settings) {
 		super(settings);

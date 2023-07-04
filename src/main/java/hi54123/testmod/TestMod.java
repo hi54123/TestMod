@@ -13,6 +13,7 @@ public class TestMod implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Testmod load successfully!");
 		ModItemGroup.registerItemGroup();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

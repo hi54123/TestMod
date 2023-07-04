@@ -5,14 +5,18 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
+/**
+ * Register mod items
+ */
 public class ModItems {
-	public static final Item MODITEM1 = rigisterItem("moditem1",
+	public static final Item MODITEM1 = rigisterItem("moditem1.json",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
 	public static final Item MODITEM2 = rigisterItem("moditem2",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
 	public static final Item SHIT = rigisterItem("shit",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM).food(ModFoodComponents.SHIT)));
+	public static final Item SHENBAO = rigisterItem("shenbao",
+			new Item(new Item.Settings().group(ModItemGroup.MODITEM).food(ModFoodComponents.SHENBAO)));
 	public static final Item YESHOUXIANBEI = rigisterItem("yeshouxianbei",
 			new YeShouXianBei(new Item.Settings().group(ModItemGroup.MODITEM).maxCount(1)));
 	

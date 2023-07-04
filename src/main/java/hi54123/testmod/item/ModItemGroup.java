@@ -6,6 +6,9 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
+/**
+ * Register mod itemgroup
+ */
 public class ModItemGroup {
 	public static final ItemGroup MODITEM = FabricItemGroupBuilder.build(
 			new Identifier(TestMod.MOD_ID, "moditems"),
