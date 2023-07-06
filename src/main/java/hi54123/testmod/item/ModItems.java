@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
  * Register mod items
  */
 public class ModItems {
-	public static final Item MODITEM1 = rigisterItem("moditem1.json",
+	public static final Item MODITEM1 = rigisterItem("moditem1",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
 	public static final Item MODITEM2 = rigisterItem("moditem2",
 			new Item(new FabricItemSettings().group(ModItemGroup.MODITEM)));
