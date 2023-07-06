@@ -11,7 +11,7 @@ public class ModFoodComponents {
 			statusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 600, 1), 1.0f).
 			statusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 2400, 2), 1.0f).
 			statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 0), 1.0f).
-			statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 2400, 2), 1.0f).
+			statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 2400, 4), 1.0f).
 			statusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 240, 0), 1.0f).
 			statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 2400, 1), 1.0f).
 			alwaysEdible().
