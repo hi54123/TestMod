@@ -25,7 +25,6 @@ public class ModFoodComponents {
 			statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 1), 1.0f).
 			statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 1200, 1), 1.0f).
 			statusEffect(new StatusEffectInstance(StatusEffects.HASTE, 1200, 1), 1.0f).
-			statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 1, 113), 0.114f).
 			statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 1, 224), 0.114f).
 			snack().
 			alwaysEdible().
